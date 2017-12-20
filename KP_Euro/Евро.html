@@ -1,0 +1,571 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name=Generator content="FastReport 3.0 http://www.fast-report.com">
+<title>Untitled</title>
+<style type="text/css"><!-- 
+.page_break {page-break-before: always;}
+.s0 {
+ font-family: Arial; font-size: 8px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ text-align: right; vertical-align: top;
+}
+.s1 {
+ font-family: Arial; font-size: 13px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ text-align: left; vertical-align: top;
+}
+.s2 {
+ font-family: Arial; font-size: 15px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ text-align: left; vertical-align: top;
+}
+.s3 {
+ font-family: Arial; font-size: 13px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ text-align: left; vertical-align: top;
+}
+.s4 {
+ font-family: Arial; font-size: 15px; color: #000000; font-weight: bold; font-style: normal; text-decoration: underline;
+ background-color: #FFFFFF;
+ text-align: left; vertical-align: top;
+}
+.s5 {
+ font-family: Arial; font-size: 13px; color: #000000; font-style: italic;
+ background-color: #FFFFFF;
+ text-align: left; vertical-align: top;
+}
+.s6 {
+ font-family: Arial; font-size: 13px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 0px;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: left; vertical-align: middle;
+}
+.s7 {
+ font-family: Arial; font-size: 13px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: left; vertical-align: middle;
+}
+.s8 {
+ font-family: Arial; font-size: 13px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: left; vertical-align: middle;
+}
+.s9 {
+ font-family: Arial; font-size: 13px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: center; vertical-align: middle;
+}
+.s10 {
+ font-family: Arial Narrow; font-size: 15px; color: #000000; font-style: italic;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: center; vertical-align: middle;
+}
+.s11 {
+ font-family: Arial Narrow; font-size: 15px; color: #000000; font-style: italic;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: center; vertical-align: middle;
+}
+.s12 {
+ font-family: Arial; font-size: 13px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 0px;
+ border-top-width: 1;
+ border-bottom-width: 0px;
+ text-align: left; vertical-align: middle;
+}
+.s13 {
+ font-family: Arial; font-size: 13px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 0px;
+ border-top-width: 1;
+ border-bottom-width: 0px;
+ text-align: center; vertical-align: middle;
+}
+.s14 {
+ font-family: Arial; font-size: 13px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 0px;
+ text-align: center; vertical-align: middle;
+}
+.s15 {
+ font-family: Arial; font-size: 13px; color: #000000; font-weight: bold; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 0px;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: center; vertical-align: middle;
+}
+.s16 {
+ font-family: Arial; font-size: 13px; color: #000000; font-weight: bold; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: center; vertical-align: middle;
+}
+.s17 {
+ font-family: Arial; font-size: 13px; color: #000000; font-weight: bold; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: left; vertical-align: top;
+}
+.s18 {
+ font-family: Arial Narrow; font-size: 15px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: center; vertical-align: middle;
+}
+.s19 {
+ font-family: Arial; font-size: 13px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: right; vertical-align: middle;
+}
+.s20 {
+ font-family: Arial Narrow; font-size: 15px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: center; vertical-align: top;
+}
+.s21 {
+ font-family: Arial; font-size: 13px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: left; vertical-align: top;
+}
+.s22 {
+ font-family: Arial; font-size: 13px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: center; vertical-align: top;
+}
+.s23 {
+ font-family: Arial; font-size: 13px; color: #000000; font-weight: bold; font-style: normal;
+ background-color: #FFFFFF;
+ text-align: left; vertical-align: top;
+}
+.s24 {
+ font-family: Arial; font-size: 13px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: center; vertical-align: middle;
+}
+.s25 {
+ font-family: Arial; font-size: 13px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 0px;
+ border-top-width: 0px;
+ border-bottom-width: 0px;
+ text-align: left; vertical-align: middle;
+}
+.s26 {
+ font-family: Arial; font-size: 13px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 0px;
+ border-bottom-width: 0px;
+ text-align: center; vertical-align: middle;
+}
+.s27 {
+ font-family: Arial; font-size: 13px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 0px;
+ border-bottom-width: 0px;
+ text-align: center; vertical-align: middle;
+}
+.s28 {
+ font-family: Arial; font-size: 13px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ text-align: center; vertical-align: middle;
+}
+.s29 {
+ font-family: Arial; font-size: 13px; color: #000000; font-weight: bold; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: center; vertical-align: middle;
+}
+.s30 {
+ font-family: Arial; font-size: 13px; color: #000000; font-weight: bold; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: left; vertical-align: top;
+}
+.s31 {
+ font-family: Arial Narrow; font-size: 15px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: center; vertical-align: middle;
+}
+.s32 {
+ font-family: Arial; font-size: 13px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 0px;
+ border-top-width: 0px;
+ border-bottom-width: 1;
+ text-align: left; vertical-align: middle;
+}
+.s33 {
+ font-family: Arial; font-size: 13px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 0px;
+ border-bottom-width: 1;
+ text-align: left; vertical-align: middle;
+}
+.s34 {
+ font-family: Arial; font-size: 13px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 0px;
+ border-bottom-width: 1;
+ text-align: center; vertical-align: middle;
+}
+.s35 {
+ font-family: Arial; font-size: 13px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 0px;
+ border-bottom-width: 1;
+ text-align: right; vertical-align: middle;
+}
+.s36 {
+ font-family: Arial; font-size: 13px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 0px;
+ border-bottom-width: 1;
+ text-align: right; vertical-align: middle;
+}
+.s37 {
+ font-family: Arial Narrow; font-size: 15px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 1;
+ border-bottom-width: 1;
+ text-align: center; vertical-align: top;
+}
+.s38 {
+ font-family: Arial; font-size: 13px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 1;
+ border-right-width: 1;
+ border-top-width: 0px;
+ border-bottom-width: 1;
+ text-align: left; vertical-align: top;
+}
+.s39 {
+ font-family: Arial; font-size: 13px; color: #000000; font-style: normal;
+ background-color: #FFFFFF;
+ border-color:#000000; border-style: solid;
+ border-left-width: 0px;
+ border-right-width: 1;
+ border-top-width: 0px;
+ border-bottom-width: 1;
+ text-align: center; vertical-align: top;
+}
+--></style>
+</head>
+<body  bgcolor="#FFFFFF" text="#000000">
+<a name="1"></a>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr height="992">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td width="684" colspan="28" class="s1" style={font-size:0px}><img src="����.files\img0.jpg" alt=""/></td><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="7">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="17"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="43"/><td style={font-size:0px} width="40"/><td style={font-size:0px} width="16"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="53"/><td style={font-size:0px} width="39"/><td style={font-size:0px} width="24"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="23"/><td style={font-size:0px} width="9"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="51"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="41"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="10">
+<td width="685" colspan="27" class="s0">СуперОкна 7</td><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+</table>
+<a name="2"></a>
+<table border="0" cellspacing="0" cellpadding="0" class="page_break">
+<tr height="36">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="17"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="43"/><td style={font-size:0px} width="40"/><td style={font-size:0px} width="16"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="53"/><td style={font-size:0px} width="39"/><td style={font-size:0px} width="24"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="23"/><td style={font-size:0px} width="9"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="51"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="41"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="992">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td width="684" colspan="28" class="s1" style={font-size:0px}><img src="����.files\img1.jpg" alt=""/></td><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="7">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="17"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="43"/><td style={font-size:0px} width="40"/><td style={font-size:0px} width="16"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="53"/><td style={font-size:0px} width="39"/><td style={font-size:0px} width="24"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="23"/><td style={font-size:0px} width="9"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="51"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="41"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="10">
+<td width="685" colspan="27" class="s0">СуперОкна 7</td><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+</table>
+<a name="3"></a>
+<table border="0" cellspacing="0" cellpadding="0" class="page_break">
+<tr height="36">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="17"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="43"/><td style={font-size:0px} width="40"/><td style={font-size:0px} width="16"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="53"/><td style={font-size:0px} width="39"/><td style={font-size:0px} width="24"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="23"/><td style={font-size:0px} width="9"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="51"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="41"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="992">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td width="684" colspan="28" class="s1" style={font-size:0px}><img src="����.files\img2.jpg" alt=""/></td><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="7">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="17"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="43"/><td style={font-size:0px} width="40"/><td style={font-size:0px} width="16"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="53"/><td style={font-size:0px} width="39"/><td style={font-size:0px} width="24"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="23"/><td style={font-size:0px} width="9"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="51"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="41"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="10">
+<td width="685" colspan="27" class="s0">СуперОкна 7</td><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+</table>
+<a name="4"></a>
+<table border="0" cellspacing="0" cellpadding="0" class="page_break">
+<tr height="36">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="17"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="43"/><td style={font-size:0px} width="40"/><td style={font-size:0px} width="16"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="53"/><td style={font-size:0px} width="39"/><td style={font-size:0px} width="24"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="23"/><td style={font-size:0px} width="9"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="51"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="41"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="992">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td width="684" colspan="28" class="s1" style={font-size:0px}><img src="����.files\img3.jpg" alt=""/></td><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="7">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="17"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="43"/><td style={font-size:0px} width="40"/><td style={font-size:0px} width="16"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="53"/><td style={font-size:0px} width="39"/><td style={font-size:0px} width="24"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="23"/><td style={font-size:0px} width="9"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="51"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="41"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="10">
+<td width="685" colspan="27" class="s0">СуперОкна 7</td><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+</table>
+<a name="5"></a>
+<table border="0" cellspacing="0" cellpadding="0" class="page_break">
+<tr height="36">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="17"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="43"/><td style={font-size:0px} width="40"/><td style={font-size:0px} width="16"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="53"/><td style={font-size:0px} width="39"/><td style={font-size:0px} width="24"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="23"/><td style={font-size:0px} width="9"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="51"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="41"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="108">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="17"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="43"/><td width="532" colspan="20" class="s1" style={font-size:0px}><img src="����.files\img4.jpg" alt=""/></td><td style={font-size:0px} width="41"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="2">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="17"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="43"/><td style={font-size:0px} width="40"/><td style={font-size:0px} width="16"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="53"/><td style={font-size:0px} width="39"/><td style={font-size:0px} width="24"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="23"/><td style={font-size:0px} width="9"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="51"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="41"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="177">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td width="685" colspan="28" class="s1" style={font-size:0px}><img src="����.files\img5.jpg" alt=""/></td><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="13">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="17"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="43"/><td style={font-size:0px} width="40"/><td style={font-size:0px} width="16"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="53"/><td style={font-size:0px} width="39"/><td style={font-size:0px} width="24"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="23"/><td style={font-size:0px} width="9"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="51"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="41"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="3">
+<td style={font-size:0px} width="28"/><td width="712" colspan="31" class="s3" style={font-size:0px}><img src="����.files\img6.jpg" alt=""/></td>
+</tr>
+<tr height="25">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td width="108" colspan="4" rowspan="5" class="s4">Изделие №<br>Доп.  </td><td style={font-size:0px} width="16"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="53"/><td style={font-size:0px} width="39"/><td style={font-size:0px} width="24"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="23"/><td style={font-size:0px} width="9"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="51"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="41"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="7">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td width="216" colspan="8" rowspan="3" class="s1" style={font-size:0px}><img src="����.files\img7.jpg" alt=""/></td><td style={font-size:0px} width="8"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="23"/><td style={font-size:0px} width="9"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="51"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="41"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="172">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td width="336" colspan="12" class="s2">Профиль: <br>Цвет изделия: <br>Заполнение:<br><br></td><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="81">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td width="336" colspan="12" rowspan="5" class="s5">Примечание:</td><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="3">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="16"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="53"/><td style={font-size:0px} width="39"/><td style={font-size:0px} width="24"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="20">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td width="124" colspan="5" rowspan="3" class="s2">Кол-во 1 шт</td><td style={font-size:0px} width="25"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="53"/><td style={font-size:0px} width="39"/><td style={font-size:0px} width="24"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="24">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td width="208" colspan="8" class="s2">Площадь 1 изд.: 0,00 кв.м.(Итого: 0 кв.м.)</td><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="24">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td width="208" colspan="8" class="s2">Стоимость 1 изд.: 0,00 руб. (Итого: 0,00руб.)</td><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="20">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td width="25" colspan="2" class="s6">Доп.</td><td width="136" colspan="6" class="s7">МНФ-1</td><td width="264" colspan="9" class="s7">Метал.нащельник.фигурный</td><td width="80" colspan="3" class="s24">435,336руб</td><td width="75" colspan="3" class="s24">0,3520 кв.м.</td><td width="105" colspan="5" class="s24">153,24руб</td><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="98">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td width="685" colspan="28" class="s1" style={font-size:0px}><img src="����.files\img8.jpg" alt=""/></td><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="40">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td width="189" colspan="9" class="s10">Наименование</td><td width="79" colspan="2" class="s11">Количество</td><td width="84" colspan="4" class="s11">S общая</td><td width="165" colspan="6" class="s11">Итого с учетом скидки</td><td width="169" colspan="7" class="s11">Примечания</td><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="20">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td width="188" colspan="9" class="s25">Изделие № Доп.</td><td width="79" colspan="2" class="s26">1 шт</td><td width="84" colspan="4" class="s27">0,00 кв.м.</td><td width="165" colspan="6" class="s28">0,00руб.</td><td width="169" colspan="7" class="s26" style={font-size:0px}>&nbsp</td><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="26">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td width="188" colspan="9" class="s15">Итого за изделия:</td><td width="80" colspan="2" class="s16">1 шт</td><td width="84" colspan="4" class="s29">0,00кв.м.</td><td width="164" colspan="6" class="s29">0,00 руб</td><td width="169" colspan="7" class="s30" style={font-size:0px}>&nbsp</td><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="40">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td width="685" colspan="28" class="s1" style={font-size:0px}><img src="����.files\img9.jpg" alt=""/></td><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="32">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td width="157" colspan="7" class="s18">Артикул</td><td width="220" colspan="9" class="s31">Наименование</td><td width="80" colspan="3" class="s31">Цена</td><td width="123" colspan="4" class="s31">Количество</td><td width="105" colspan="5" class="s31">Стоимость</td><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="20">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td width="33" colspan="3" class="s32">Доп.</td><td width="124" colspan="4" class="s33">МНФ-1</td><td width="220" colspan="9" class="s33">Метал.нащельник.фигурный</td><td width="80" colspan="3" class="s34">435,336руб</td><td width="123" colspan="4" class="s34">0,3520 кв.м.</td><td width="105" colspan="5" class="s34">153,24 руб</td><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="36">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td width="580" colspan="23" class="s35">Итого за доп.материалы:</td><td width="104" colspan="5" class="s36">153,24 руб</td><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="8">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="17"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="43"/><td style={font-size:0px} width="40"/><td style={font-size:0px} width="16"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="53"/><td style={font-size:0px} width="39"/><td style={font-size:0px} width="24"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="23"/><td style={font-size:0px} width="9"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="51"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="41"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="10">
+<td width="685" colspan="27" class="s0">СуперОкна 7</td><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+</table>
+<a name="6"></a>
+<table border="0" cellspacing="0" cellpadding="0" class="page_break">
+<tr height="36">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="17"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="43"/><td style={font-size:0px} width="40"/><td style={font-size:0px} width="16"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="53"/><td style={font-size:0px} width="39"/><td style={font-size:0px} width="24"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="23"/><td style={font-size:0px} width="9"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="51"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="41"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="40">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td width="685" colspan="28" class="s1" style={font-size:0px}><img src="����.files\img10.jpg" alt=""/></td><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="28">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td width="308" colspan="12" class="s20">Наименование</td><td width="140" colspan="6" class="s37">Цена,руб</td><td width="120" colspan="4" class="s37">Количество</td><td width="116" colspan="6" class="s37">Стоимость,руб</td><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="22">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td width="308" colspan="12" class="s38">   Доп.работы(монтажные)</td><td width="140" colspan="6" class="s39">600,00</td><td width="120" colspan="4" class="s39">1</td><td width="116" colspan="6" class="s39">600,00</td><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="22">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td width="308" colspan="12" class="s38">   Доставка</td><td width="140" colspan="6" class="s39">500,00</td><td width="120" colspan="4" class="s39">1</td><td width="116" colspan="6" class="s39">500,00</td><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="22">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td width="308" colspan="12" class="s38">   Погрузка/разгрузка</td><td width="140" colspan="6" class="s39">100,00</td><td width="120" colspan="4" class="s39">1</td><td width="116" colspan="6" class="s39">100,00</td><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="30">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td width="568" colspan="22" class="s35">Итого за работы:</td><td width="116" colspan="6" class="s36">1 200,00 руб</td><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="4">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="17"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="43"/><td style={font-size:0px} width="40"/><td style={font-size:0px} width="16"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="53"/><td style={font-size:0px} width="39"/><td style={font-size:0px} width="24"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="23"/><td style={font-size:0px} width="9"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="51"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="41"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="36">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td width="684" colspan="28" class="s2">Доставка и монтаж осуществляется в будние дни в рабочее время (если таковые указаны в работах)</td><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="2">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="17"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="43"/><td style={font-size:0px} width="40"/><td style={font-size:0px} width="16"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="53"/><td style={font-size:0px} width="39"/><td style={font-size:0px} width="24"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="23"/><td style={font-size:0px} width="9"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="51"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="41"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="36">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td width="684" colspan="28" class="s23">ИТОГОВАЯ СТОИМОСТЬ ЗАКАЗА: 1 353,24 руб<br>(Одна тысяча триста пятьдесят три рубля 24 копейки )</td><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="20">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td width="680" colspan="27" class="s23">Общая площадь изделий: 0,00 кв.м.</td><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="2">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="17"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="43"/><td style={font-size:0px} width="40"/><td style={font-size:0px} width="16"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="53"/><td style={font-size:0px} width="39"/><td style={font-size:0px} width="24"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="23"/><td style={font-size:0px} width="9"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="51"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="41"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="77">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td width="216" colspan="10" class="s23">переделка по заказу 10033/3000<br>виновное лицо-МК Махоткин И<br><br>нащельники по схеме<br></td><td style={font-size:0px} width="53"/><td style={font-size:0px} width="39"/><td style={font-size:0px} width="24"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="23"/><td style={font-size:0px} width="9"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="51"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="41"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="658">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="17"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="43"/><td style={font-size:0px} width="40"/><td style={font-size:0px} width="16"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="53"/><td style={font-size:0px} width="39"/><td style={font-size:0px} width="24"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="23"/><td style={font-size:0px} width="9"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="51"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="41"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="10">
+<td width="685" colspan="27" class="s0">СуперОкна 7</td><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+</table>
+<a name="7"></a>
+<table border="0" cellspacing="0" cellpadding="0" class="page_break">
+<tr height="36">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="17"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="43"/><td style={font-size:0px} width="40"/><td style={font-size:0px} width="16"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="53"/><td style={font-size:0px} width="39"/><td style={font-size:0px} width="24"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="23"/><td style={font-size:0px} width="9"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="51"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="41"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="992">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td width="688" colspan="29" class="s1" style={font-size:0px}><img src="����.files\img11.jpg" alt=""/></td><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="7">
+<td style={font-size:0px} width="28"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="17"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="43"/><td style={font-size:0px} width="40"/><td style={font-size:0px} width="16"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="53"/><td style={font-size:0px} width="39"/><td style={font-size:0px} width="24"/><td style={font-size:0px} width="8"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="25"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="23"/><td style={font-size:0px} width="9"/><td style={font-size:0px} width="48"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="51"/><td style={font-size:0px} width="12"/><td style={font-size:0px} width="28"/><td style={font-size:0px} width="41"/><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+<tr height="10">
+<td width="685" colspan="27" class="s0">СуперОкна 7</td><td style={font-size:0px} width="27"/><td style={font-size:0px} width="4"/><td style={font-size:0px} width="5"/><td style={font-size:0px} width="3"/><td style={font-size:0px} width="16"/>
+</tr>
+</table>
+</table></body></html>

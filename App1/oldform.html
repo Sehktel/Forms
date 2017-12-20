@@ -1,0 +1,166 @@
+<!-- Заказ с эскизами + печать спецификации -->
+
+<!-- Заголовок, верхний колонтитул -->
+<header id='header'>
+    <table style="width: 100%; border-collapse: collapse; border-left: 8px solid Green;">
+        <tbody>
+            <tr>
+                <td style="width: 80% font-size: 10pt;;">Общество с Огранченной Ответственностью «ЭКООКНА СИТИ»</td>
+                <td rowspan="3" style="width: 20;">
+                    <!-- <img src="https://www.ecookna.ru/bitrix/templates/ecookna/i/logo.png" style="width: 475px; height: 228px;" class=""> -->
+                    <img src="data:image/png;base64,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"
+                    />
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 80% font-size: 10pt;;">141310, Россия, Московская область, г. Сергиев Посад, пр-т. Красной армии, 209,</td>
+            </tr>
+            <tr>
+                <td style="width: 80% font-size: 10pt;;">тел.:8 800 550-11-50, 8 495 995-11-95, e-mail:info@ecookna.ru? www.ecookna.ru</td>
+            </tr>
+        </tbody>
+    </table>
+</header>
+
+<!-- Заголовок, шапка отчета -->
+<div id='document_header' class='container' kind='obj' definition='Заголовок'>
+    <div style="font-weight: bold; font-size: 14pt; text-align: right; padding:4pt; clear: both">
+        <!-- float -->
+        Приложение №1 к договору № #ЗаказНомер# <br> от #ДатаЗаказаФорматDD#
+    </div>
+    <div style="font-size: 16pt; float: right; text-align: right; padding-top: 4pt;">
+        ЗАМЕРНЫЙ ЛИСТ - ЭСКИЗ
+    </div>
+    <table style="margin-left: calc(0%); width: 100%; border-collapse: collapse;">
+        <tbody>
+            <tr>
+                <td style="width: 6%;">Офис</td>
+                <td style="width: 4%;"> </td>
+                <td colspan="3" style="width: 90%; text-align: left;">#Офис#</td>
+            </tr>
+            <tr>
+                <td colspan="5" style="width: 100%;"> </td>
+            </tr>
+            <tr>
+                <td style="width: 6%;">Покупатель</td>
+                <td style="width: 4%;"> <br> </td>
+                <td colspan="3" style="width: 90%; text-align: left;">#Контрагент#</td>
+            </tr>
+            <tr>
+                <td style="width: 6%;">Адрес</td>
+                <td style="width: 4%;"> <br> </td>
+                <td colspan="3" style="width: 90%; text-align: left;">#Адрес#</td>
+            </tr>
+            <tr>
+                <td style="width: 6%;">Телефон: </td>
+                <td style="width: 4%;"> <br> </td>
+                <td colspan="3" style="width: 90%; text-align: left;">#Телефон#</td>
+            </tr>
+        </tbody>
+    </table>
+    <div style="background-color:#000000; width:100%; font-size:1px; height:2px; clear: both">&nbsp;</div>
+    <div style="font-size: 14pt; float: left; text-align: left; padding-top: 4pt; padding-bottom: 16pt;">
+        Площадь изделий, кв. м. : #ВсегоПлощадьИзделий#
+    </div>
+    <div style="background-color:#000000; width:100%; font-size:1px; height:2px; clear: both">&nbsp;</div>
+</div>
+
+<div id="products">
+    <table style="width: 80%; margin:0 auto; border-top: 2px solid black; border-bottom: 2px solid black;">
+        <tbody>
+            <tr>
+                <td id="num_id" rowspan="8" style="width: 3%; text-align:center">#НомерСтроки#</td>
+                <td id="svg" rowspan="8" style="width: 30%; height: 180px; text-align:center">#svg#</td>
+                <td style="width: 15%;">Количество:</td>
+                <td style="width: 22%;">#Количество# #Ед#</td>
+                <td style="width: 10%;">Цвет:</td>
+                <td style="width: 22%;">#Цвет#</td>
+            </tr>
+            <tr id="prof_glass_tr">
+                <td id="prof" style="width: 15%;">Профиль:</td>
+                <td style="width: 22%;">#Номенклатура#</td>
+                <td id="glass_tr" style="width: 15%;">Стеклопакеты:</td>
+                <td style="width: 22%;">#Заполнения#</td>
+            </tr>
+            <tr>
+                <td id="dimensions" style="width: 15%;">Ш х В:</td>
+                <td style="width: 22%;">#Ширина# x #Длинна#</td>
+                <td id="area_tr" style="width: 10%;">Площадь:</td>
+                <td style="width: 22%;">#ВсегоПлощадь# м²</td>
+            </tr>
+            <!-- <tr>
+                <td id="area_tr" style="width: 10%;">Площадь:</td>
+                <td style="width: 22%;">#ВсегоПлощадь# м²</td>
+            </tr> -->
+            <tr id="furn_tr">
+                <td id="furn" style="width: 15%;">Фурнитура:<br>#Фурнитура#</td>
+                <td style="width: 22%;" colspan="1">#ПараметрыФурнитуры#</td>
+            </tr>
+            <!-- <tr>
+                <td style="width: 10%;">Цвет:</td>
+                <td style="width: 22%;">#Цвет#</td>
+            </tr> -->
+            <!-- <tr id="glass_tr">
+                <td id="glass" style="width: 15%;">Стеклопакеты:</td>
+                <td style="width: 22%;">#Заполнения#</td>
+            </tr> -->
+            <tr id="additionals_tr">
+                <td id="additionals" style="width: 15%;">Доп. комплектация:</td>
+                <td style="width: 22%;" colspan="3">#Допкомплектация#</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div id='document_end' class='container' kind='obj' definition='Итоги'>
+    <table style="margin-left: calc(0%); width: 100%; border-collapse: collapse;">
+        <tbody>
+            <tr>
+                <td colspan="5" style="width: 100%; border-bottom: 2px solid black;"> <br> </td>
+            </tr>
+            <tr>
+                <td colspan="5" style="width: 100%;">
+                    1. Изделия нумеруются слева направо от входа в помещение.
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5" style="width: 100%;">
+                    2. Все рамеры приводятся по внешним габаритам рамы или от края рамы до середины импоста (в мм).
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5" style="width: 100%;">
+                    3. Изделия рисуются открываением на себя.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div style="background-color:#000000; width:100%; font-size:1px; height:2px; clear: both">&nbsp;</div>
+</div>
+
+<!-- Подписи -->
+<div id='signatures' kind='obj' definition='Подпись покупателя'>
+    <table border="0" width="100%" cellpadding="1" cellspacing="1" style="margin-top: 16mm" style="page-break-inside: avoid;">
+        <tbody>
+            <tr>
+                <td style="width: 15%; text-align:center;">Подпись покупателя</td>
+                <td style="width: 5%;  text-align:center;"> </td>
+                <td style="width: 35%; border-bottom: 2px solid black;"> </td>
+                <td style="width: 5%;  text-align:center;"> </td>
+                <td style="width: 1%;  text-align:center;"> / </td>
+                <td style="width: 32%; border-bottom: 2px solid black;"> </td>
+                <td style="width: 1%;  text-align:center;"> / </td>
+                <td style="width: 5%;  text-align:center;"> </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Подвал заказа -->
+<footer id='footer' style="height:50px;
+		margin:auto;
+		margin-top: 16mm">
+    <div style="margin-bottom: 14mm">
+        ИНН 5042086129, БИК 044525225, КПП 504201001, ОГРН 1065042038830, ОКПО 93676345, Расчетный счет 40702810240380003610,<br /> Корреспондентский счет 30101810400000000225, ПАО «Сбербанк России» г. Москва
+    </div>
+</footer>
